@@ -291,6 +291,7 @@ body{
 .foot>div{
   margin-top: 50px;
   width: 30%;
+  min-width: 360px;
   margin-left: 2vw;
 }
 .icons{
