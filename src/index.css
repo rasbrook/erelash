@@ -41,6 +41,7 @@ body{
   color: #56ff50;
 }
 .linkss>a{
+  text-decoration: none;
   margin: 2vw;
   font-size:1em;
   transition: 0.5s;
