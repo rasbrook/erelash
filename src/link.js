@@ -1,13 +1,13 @@
-
+import { Link } from "react-router-dom"
 
 function Links(props){
     
     return(
     <div className="linkss">
-        <a href={props.Home}>Home</a>
-        <a href={props.About}>About</a>
-        <a  href={props.Service}>Service</a>
-        <a href={props.Projects}>Projects</a>
+        <Link  to={props.Home}>Home</Link >
+        <Link  to={props.About}>About</Link>
+        <Link  to={props.Service}>Service</Link>
+        
 
     </div>)
 

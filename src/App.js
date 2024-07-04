@@ -25,7 +25,7 @@ function App() {
   const name='B Cube'
   return (
     <div className="App">
-      <Head Home='#home' About='#about' Service='#service' Projects='#project'/>
+      <Head Home='/' About='/about' Service='/service' Projects='/project'/>
       <h1 className="firsth" id='home'>
     Let's Create Your Dream Together
     </h1>
@@ -43,7 +43,7 @@ function App() {
     <h1 className="what">Software And Web Development Steps</h1>
     <img alt='steps of software development' src={process} className="software" />
 
-    <div className="biggest" id='about'>
+    <div className="biggest">
         <Big head='Planning' cont='
 Purpose: The planning phase sets the foundation for the entire project. Key activities include:
 Requirement Elicitation: Engaging with stakeholders to gather detailed requirements. Techniques like interviews, surveys, and workshops are used.
@@ -143,7 +143,7 @@ Output: Deployed software accessible to end-users.'/>
       constin={`enhances software by automating repetitive tasks, improving reliability through predictive analysis, speeding up development cycles, reducing maintenance costs, and maintaining a human touch in decision-making. It transforms software into an intelligent companion that elevates user experiences`} />
     </div>
     <img id='project'src={last} className="last" alt='man coding'/>
-    <Foot Home='#home' About='#about' Service='#service' Projects='#project' />
+    <Foot Home='/' About='/about' Service='/service' Projects='/project' />
     </div>
   );
 }

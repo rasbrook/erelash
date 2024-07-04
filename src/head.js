@@ -11,7 +11,7 @@ function Head(props){
         <Links  Home={props.Home}
                 About={props.About}
                 Service={props.Service}
-                Projects={props.Projects}/>
+                />
 
     </div>)
 }

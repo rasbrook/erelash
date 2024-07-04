@@ -16,7 +16,7 @@ function Foot(props){
         <Links  Home={props.Home}
                 About={props.About}
                 Service={props.Service}
-                Projects={props.Projects}/>
+               />
         </div>
         <div className="contact">
             <h1>Contact us</h1>
