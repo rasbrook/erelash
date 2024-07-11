@@ -144,7 +144,7 @@ Output: Deployed software accessible to end-users.'/>
       constin={`enhances software by automating repetitive tasks, improving reliability through predictive analysis, speeding up development cycles, reducing maintenance costs, and maintaining a human touch in decision-making. It transforms software into an intelligent companion that elevates user experiences`} />
     </div>
     <div id="globe">
-    <Spline scene="https://prod.spline.design/12ZFJrTlhbbWx3tz/scene.splinecode" />
+    <Spline className='dglobe'scene="https://prod.spline.design/12ZFJrTlhbbWx3tz/scene.splinecode" />
     </div>
     <Foot Home='/' About='/about' Service='/service' Projects='/project' />
     </div>

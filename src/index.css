@@ -9,6 +9,7 @@
   }
 }
 body{
+  overflow-x: hidden;
   background-color: black;
   color: white;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -409,10 +410,19 @@ body{
 }
 #globe{
   position: relative;
-  margin-top: 100px;
+  margin-top: 50%;
   margin-bottom: 0;
+  width: 100%;
+  
+  
 }
 
+.dglobe{
+  min-height: 600px;
+  min-width: 600px;
+  width: 80%;
+
+}
 
 
 
