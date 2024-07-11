@@ -407,6 +407,11 @@ body{
 .service-contain-2>img{
   width:50%;
 }
+#globe{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
 
 
 

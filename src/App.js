@@ -17,8 +17,9 @@ import Ui from './assets/ui.png'
 import front from './assets/front.png'
 import back from './assets/back.png'
 import ai from './assets/aiii.png'
-import last from './assets/last.png'
 import Foot from "./foot";
+import Spline from '@splinetool/react-spline';
+
 
 
 function App() {
@@ -142,7 +143,9 @@ Output: Deployed software accessible to end-users.'/>
       head='Ai Integration' 
       constin={`enhances software by automating repetitive tasks, improving reliability through predictive analysis, speeding up development cycles, reducing maintenance costs, and maintaining a human touch in decision-making. It transforms software into an intelligent companion that elevates user experiences`} />
     </div>
-    <img id='project'src={last} className="last" alt='man coding'/>
+    <div id="globe">
+    <Spline scene="https://prod.spline.design/12ZFJrTlhbbWx3tz/scene.splinecode" />
+    </div>
     <Foot Home='/' About='/about' Service='/service' Projects='/project' />
     </div>
   );
