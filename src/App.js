@@ -144,7 +144,7 @@ Output: Deployed software accessible to end-users.'/>
       constin={`enhances software by automating repetitive tasks, improving reliability through predictive analysis, speeding up development cycles, reducing maintenance costs, and maintaining a human touch in decision-making. It transforms software into an intelligent companion that elevates user experiences`} />
     </div>
     <div id="globe">
-    <Spline className='dglobe'scene="https://prod.spline.design/12ZFJrTlhbbWx3tz/scene.splinecode" />
+    <a href="https://www.google.com/maps/place/Haile+garment+Square+%7C+%E1%88%83%E1%8B%AD%E1%88%8C+%E1%8C%8B%E1%88%AD%E1%88%98%E1%8A%95%E1%89%B5%E1%8A%A0%E1%8B%B0%E1%89%A3%E1%89%A3%E1%8B%AD/@8.9370246,38.73307,18.31z/data=!4m6!3m5!1s0x164b81824298f331:0x445bffe4b609c2e3!8m2!3d8.937035!4d38.7342826!16s%2Fg%2F11rgg03_n7?entry=ttu"><Spline className='dglobe'scene="https://prod.spline.design/12ZFJrTlhbbWx3tz/scene.splinecode" /></a>
     </div>
     <Foot Home='/' About='/about' Service='/service' Projects='/project' />
     </div>
