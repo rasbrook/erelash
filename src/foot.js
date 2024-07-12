@@ -22,7 +22,7 @@ function Foot(props){
             <h1>Contact us</h1>
             <h3>Phone No:<span>    0952495454</span></h3>
             <h3>Email:<span>       BCube@gmail.com</span></h3>
-            <h3>Location:<span>      Addis Abeba, Haile Garment</span></h3>
+            <h3>Location:<span>      Addis abeba, semit 72</span></h3>
         <div className="icons">
            <img src={tele} alt='icon of telegram' />
             <img src={insta} alt='icon of instagram'/>
